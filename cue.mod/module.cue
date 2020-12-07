@@ -1,1 +1,1 @@
-module: "github.com/majorleaguebaseball/mlb-app-cue"
+module: "github.com/majorleaguebaseball/mlb_app"
