@@ -16,7 +16,7 @@ import (
 				value: "/secrets/key.json"
 			}, {
 				name:  "INSTANCES"
-				value: "\(strings.Join(#CloudSQLInstances, ","))"
+				value: string | *"\(strings.Join(#CloudSQLInstances, ","))"
 			}, ...]
 			image: string | *"gcr.io/cloudsql-docker/gce-proxy:1.19.1"
 			name:  "cloudsql-proxy"
